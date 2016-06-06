@@ -5,3 +5,23 @@ A. When you initialize a git repository, it creates the hidden file .git in the 
 Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A. The staging area to the working directory and repository is like RAM is to a hard drive. The staging area is temporary, but the directory and repository are more permanant. It allows things to be "sorted" before and actual commit.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+
+A. Different files might contain different changes, so you can stage one file but not the other, commit, then stage the other file and commit again.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A. Writing different end-user versions. Branches might help so that if you run into a problem with one version, the other version is still intact. Also, maybe you want to experiment with restructuring your code. Branching would be a good to way ensure you can always go back to the old way if things get messy in your restructuring.
+
+Q. How do the diagrams help you visualize the branch structure?
+
+A. Diagrams help you literally see the structure as an image. It's like looking at a map. It kind of reminds me of the Boston 'T' diagram, when some lines (especially the green line) breaks off into different branches. These diagrams help commuters know which train to take (i.e. which branch the train follows) to get to their desired destination.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A. The result of merging the branches is that we have alternate paths of commits to get to the merge and beyond, which is why we show it the way we do in the diagram.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A. Merging manually is tedious and time consuming, but it allows for more control. Automatic merges could potentially break the code, but if it works, it's more efficient.
