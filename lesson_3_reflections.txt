@@ -13,3 +13,7 @@ A. Forks are essentially clones within GitHub, and you would fork if you want to
 Q. What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A. First of all, you can compare, merge and resolve conflicts without internet access.
+
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A. You could email commit, or use a could service like dropbox to sync the files, but without the tools like pull requests, forking, etc., it would be a lot harder to track commits and forks, and to communicate with collaborators without the pull-request tool.
