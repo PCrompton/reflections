@@ -17,3 +17,7 @@ A. First of all, you can compare, merge and resolve conflicts without internet a
 Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A. You could email commit, or use a could service like dropbox to sync the files, but without the tools like pull requests, forking, etc., it would be a lot harder to track commits and forks, and to communicate with collaborators without the pull-request tool.
+
+Q. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A. Making changes in a separate branch leaves master intact for everyone else, so that you don't break things for others. Updating in master directly would require less merges and conflict resolutions, which is a pro, but the con of many people updating master and potentially breaking it outweighs the pros.
